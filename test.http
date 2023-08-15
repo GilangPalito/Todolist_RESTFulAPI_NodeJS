@@ -1,0 +1,33 @@
+// Untuk Test response nya
+//=========================================================
+
+GET http://localhost:3000
+
+###
+
+POST http://localhost:3000
+Content-Type: application/json
+Accept: application/json
+
+{
+    "todo" : "Erling Halland"
+}
+
+###
+PUT http://localhost:3000
+Content-Type: application/json
+Accept: application/json
+
+{
+    "id" : "0",
+    "todo" : "Test update"
+}
+
+###
+DELETE http://localhost:3000
+Content-Type: application/json
+Accept: application/json
+
+{
+    "id" : "0"
+}
